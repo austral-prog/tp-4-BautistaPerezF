@@ -17,4 +17,3 @@ def line():
     print(f"\tP2 ({coeficiente_X2}, {coeficiente_X2 * coeficiente_A + coeficiente_B})")
     print("")
     print(f"La distancia entre ellos es: {math.sqrt(((coeficiente_X2 - coeficiente_X1)**2 + ((coeficiente_X2 * coeficiente_A + coeficiente_B) - (coeficiente_X1 * coeficiente_A + coeficiente_B))**2))}")
-line()
